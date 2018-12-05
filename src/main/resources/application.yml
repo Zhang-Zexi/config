@@ -8,7 +8,7 @@ spring:
           uri: https://github.com/Zhang-Zexi/config-repo
           username: 2445459509@qq.com
           password: 4921156zzxBEE
-          basedir: D:\02-DemoWorkSpace\04-SpringCloud\config\basedir
+ #         basedir: D:\02-DemoWorkSpace\04-SpringCloud\config\basedir
 eureka:
   client:
     service-url:
