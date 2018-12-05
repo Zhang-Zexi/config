@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Zhang-Zexi/config-repo
+          username: 2445459509@qq.com
+          password: 4921156zzxBEE
+          basedir: D:\02-DemoWorkSpace\04-SpringCloud\config\basedir
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8762/eureka
+management:
+  endpoints:
+    web:
+      expose: "*"
